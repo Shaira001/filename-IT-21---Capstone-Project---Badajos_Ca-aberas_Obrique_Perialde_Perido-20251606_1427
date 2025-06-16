@@ -1,0 +1,53 @@
+name: sk_connect
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8 # Keep only one version, usually the higher one
+  firebase_messaging: ^14.8.2
+  flutter_local_notifications: ^17.0.0
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.19.2
+  cloud_firestore: ^4.17.0
+  shared_preferences: ^2.2.2
+  sqflite: ^2.4.1
+  local_auth: ^2.3.0
+  google_fonts: ^6.2.1
+  firebase_database: ^10.5.7
+  table_calendar: ^3.2.0
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.1
+  intl: ^0.20.2
+
+dev_dependencies: # <--- Start of development dependencies
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1" # <--- MOVED HERE and updated to a common recent version
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter: # <--- This `flutter:` is the top-level Flutter configuration
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets: # <--- This `assets:` is indented two spaces under `flutter:`
+    - assets/ # <--- This `- assets/` is indented two spaces under `assets:`
+
+flutter_launcher_icons: # <--- This `flutter_launcher_icons:` config is indented two spaces under `flutter:`
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/logo.png"
+    # min_sdk_android: 21 # Optional: You can uncomment and set if needed

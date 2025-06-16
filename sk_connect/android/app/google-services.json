@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "829923251216",
+    "firebase_url": "https://sk-connect-e14e7-default-rtdb.firebaseio.com",
+    "project_id": "sk-connect-e14e7",
+    "storage_bucket": "sk-connect-e14e7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829923251216:android:dd36c1eb086b3e774d2695",
+        "android_client_info": {
+          "package_name": "com.example.sample_flutter_firebase_notifications_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhupLENXwV71z-P-IK72yN9-v3Yb7aXsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829923251216:android:a5b455ee69605a104d2695",
+        "android_client_info": {
+          "package_name": "com.example.sk_connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhupLENXwV71z-P-IK72yN9-v3Yb7aXsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
